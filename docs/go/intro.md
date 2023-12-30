@@ -9,3 +9,13 @@ Go aims to combine the performance of low-level languages like C and C++ with th
 - **Simplicity**: Go is designed to be simple and easy to learn. It has a clean and concise syntax that minimizes the use of symbols and unnecessary features.
 - **Concurrency Support**: Go has built-in support for concurrent programming, making it easy to write programs that efficiently utilize multiple processors.
 - **Garbage Collection**: Go has automatic memory management through garbage collection, reducing the burden on developers for memory allocation and deallocation.
+
+**Hello World example**
+```go
+package main
+import ("fmt")
+
+func main() {
+  fmt.Println("Hello World!")
+}
+```
